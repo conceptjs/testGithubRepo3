@@ -1,0 +1,31 @@
+{
+  "uri" : "local://rpopvlMGzC8-2aEKjs_pI7/",
+  "name" : "testGitHubRepo3 (Repository)",
+  "category" : "",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_repo_repoUri",
+    "expr" : {
+      "str" : "/common/testGitHubRepo3/"
+    }
+  }, {
+    "name" : "repo",
+    "expr" : {
+      "concept" : "/common/core/dikjRMQUWrB_rK4hvxvxP8/",
+      "bindings" : {
+        "repoUri" : "_repo_repoUri"
+      }
+    }
+  }, {
+    "name" : "page",
+    "expr" : {
+      "concept" : "local://vFgWR6ZR3WBjnKWSEMP1UD/"
+    }
+  } ],
+  "isas" : [ {
+    "var" : "repo"
+  }, {
+    "var" : "page"
+  } ]
+}

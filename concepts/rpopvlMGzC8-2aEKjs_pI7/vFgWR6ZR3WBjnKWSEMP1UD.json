@@ -1,0 +1,26 @@
+{
+  "uri" : "local://vFgWR6ZR3WBjnKWSEMP1UD/",
+  "name" : "test github",
+  "category" : "",
+  "parent" : "local://rpopvlMGzC8-2aEKjs_pI7/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "htmlTemplate",
+    "expr" : {
+      "str" : "<html>\n    <body>\n        <h1>This is a test repository for GitHub integration</h1>\n    </body>\n</html>",
+      "strEditMode" : "html"
+    }
+  }, {
+    "name" : "page",
+    "expr" : {
+      "concept" : "/common/core/iduwOQ2KZv8MWqamwqb6AE/",
+      "bindings" : {
+        "html" : "htmlTemplate"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "page"
+  } ]
+}
